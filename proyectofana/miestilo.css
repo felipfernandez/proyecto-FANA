@@ -47,7 +47,9 @@ footer{
         background-color: rgb(224, 217, 210);
         text-align: center;
         padding: 20px;
-        margin: 20px;
+        margin: auto;
+        position: absolute;
+        bottom: 0;
 }
 
         
