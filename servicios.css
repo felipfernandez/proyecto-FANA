@@ -1,0 +1,60 @@
+
+.imgpresentacion {
+    max-width: 99%;
+    height: 50%;
+    
+}
+.contenedorflex {
+    display: flex;
+    justify-content: end;
+    
+}
+
+.textoflex {
+    margin: 2em;
+}
+.text{
+    text-align: center;
+}
+
+.TituloPagina {
+text-align: center;
+background-color: black;
+color: rgb(255, 255, 255);
+}
+
+
+body{
+    background-color: white;
+    position: relative;
+    min-height: 100vh;
+}
+
+main{
+    position: relative;
+}
+footer{
+    background-color: rgb(224, 217, 210);
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    height:3em;
+    margin: auto;
+
+
+}
+
+@media all and (max-width: 700px){
+    .contenedorflex{
+        flex-direction: column;
+        justify-content: center;
+     }  
+     .contenedorflex2{
+        flex-direction: column;
+        justify-content: center;
+     }  
+     footer{
+        position: relative;
+    }
+
+}
