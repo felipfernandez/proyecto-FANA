@@ -51,5 +51,25 @@ footer{
         position: absolute;
         bottom: 0;
 }
+.contactos{
+    background-image: url(https://arc-anglerfish-arc2-prod-infobae.s3.amazonaws.com/public/EWRWZLV7FZEM7C24TIEPFBJCP4.jpg);
+}
+.listaContactos{
+    margin: 50px;
+    display: flex;
+    display: inline;
 
-        
+}
+
+.listaContactos2{
+    margin: 25px;
+}
+
+#contacto{
+    float: left;
+}
+
+#link{
+    text-decoration: none;
+    color: #000;
+}

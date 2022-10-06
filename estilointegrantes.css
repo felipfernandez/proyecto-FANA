@@ -73,9 +73,15 @@ head{
         display: inline-block;}
         
 .enlace {
-            position: absolute;
-            padding: 20px 50px;
-        }
+    position: absolute;
+    padding: 20px 50px;
+}
+
+#link{
+    text-decoration: none;
+    color: #000;
+}
+        
         .logo{
             height: 40px;
          }
