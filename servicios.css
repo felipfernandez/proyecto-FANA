@@ -33,7 +33,7 @@ body{
 main{
     position: relative;
 }
-.footer{
+footer{
     background-color: rgb(224, 217, 210);
     position: relative;
     bottom: 0;
