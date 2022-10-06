@@ -85,7 +85,7 @@ footer{
 .listaContactos{
     margin: 50px;
     display: flex;
-    display: inline;
+    padding: 0;
 }
 
 .listaContactos2{
@@ -130,26 +130,30 @@ footer{
         position: fixed;
         width: 100%;
         height: 100vh;
-        background: #2c3e50;
+        background: rgba(0, 0, 0, .95);
         top: 80px;
         left: -100%;
         text-align: center;
         transition: all .5s;
-        z-index: 0;
+       
     }
     nav ul li{
         display: block;
         margin: 50px 0;
         line-height: 30px;
+        transition: all .5s;
     }
     nav ul li a{
-        font-size: 20px;
+        font-size: 16px;
+        color: #fff;
     }
     li a:hover, li a.active{
         background: none;
         color: red;
+        transition: all .5s;
     }
     #check:checked ~ ul{
         left:0;
+        height: 100vh;
     }
 }
