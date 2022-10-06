@@ -56,6 +56,28 @@ footer{
         margin: auto;
         position: absolute;
         bottom: 0;
+       
+}
+.bodyFichas{
+    background-color: rgb(205, 232, 229);  
+}
+.mainFichas{
+    margin: 30px;
+}
+.mainFichas2{
+    margin-left: 30px;
+}
+
+.bodyIndex{
+    background-image: url(https://cdn2.civitatis.com/argentina/buenos-aires/galeria/obelisco-buenos-aires.jpg);
+}
+.foto{
+    height: 15%;
+    width: 15%;
+    object-fit: cover; /* Recorta la imagen sin deformarla */
+    object-position: center;
+    border: 5px #343434 solid;
+    margin:2%;
 }
 .contactos{
     background-image: url(https://arc-anglerfish-arc2-prod-infobae.s3.amazonaws.com/public/EWRWZLV7FZEM7C24TIEPFBJCP4.jpg);
